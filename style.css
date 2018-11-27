@@ -1,0 +1,51 @@
+.main{
+  position: relative;
+  display: inline-block;
+  border: 1px solid #00BFFF;
+  margin: 60px;
+}
+.main table{
+    border-collapse: collapse;
+}
+.main table td{
+  background-color: #00BFFF;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+}
+.main button{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-size: 24px;
+  margin: 2px;
+  cursor: pointer;
+  transition: left .25s ease, top .25s ease, opacity .25s ease;
+}
+.main button:hover{
+  opacity: .76;
+}
+.main .add-row{
+  background-color: #F3A500;
+  top: 100%;
+  left: 0;
+}
+.main .add-col{
+  background-color: #F3A500;
+  top: 0;
+  left: 100%;
+}
+.main .del-row{
+  background-color: #B20000;
+  visibility: hidden;
+  right: 100%;
+  top: 0;
+}
+.main .del-col{
+  background-color: #B20000;
+  visibility: hidden;
+  bottom: 100%;
+  left: 0;
+}
